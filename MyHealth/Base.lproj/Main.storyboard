@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="zUe-x1-ALV">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Item 2-->
+        <scene sceneID="jPJ-2K-LBn">
+            <objects>
+                <viewController id="bOD-Po-dDB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mcF-Xk-EE0"/>
+                        <viewControllerLayoutGuide type="bottom" id="lRn-lx-7xq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7kI-Dh-9EF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="bfe-4Y-1ag"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MJh-JF-FvX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="770" y="723"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="IHe-Ce-FpC">
+            <objects>
+                <navigationController id="B5P-aq-sYc" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="LQu-Mi-lS7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="SNb-1a-PZJ" kind="relationship" relationship="rootViewController" id="Lvb-KI-rPa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="owD-lg-W1e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="54" y="-446"/>
+        </scene>
+        <!--Body Mass Index-->
+        <scene sceneID="lkz-Fx-hoA">
+            <objects>
+                <viewController id="SNb-1a-PZJ" customClass="ViewController" customModule="MyHealth" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wZG-y1-YcB"/>
+                        <viewControllerLayoutGuide type="bottom" id="sYg-Rn-Hhi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bfD-oJ-LIf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Height(cm)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fyB-RL-RRg">
+                                <rect key="frame" x="236" y="125" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Age" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hyl-w9-CE2">
+                                <rect key="frame" x="99" y="175" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Waist" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JXh-bf-J77">
+                                <rect key="frame" x="99" y="251" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Weight(kg)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hL0-c9-rTb">
+                                <rect key="frame" x="99" y="125" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Hip" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gcb-ms-vIH">
+                                <rect key="frame" x="99" y="296" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zYd-b6-Hdq">
+                                <rect key="frame" x="99" y="213" width="46" height="30"/>
+                                <state key="normal" title="Male"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rDO-Tv-PIk">
+                                <rect key="frame" x="162" y="213" width="91" height="30"/>
+                                <state key="normal" title="Female"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aXe-re-w9a">
+                                <rect key="frame" x="149" y="367" width="116" height="30"/>
+                                <state key="normal" title="Calculate"/>
+                                <connections>
+                                    <action selector="calculateBMI:" destination="SNb-1a-PZJ" eventType="touchUpInside" id="TuI-uj-aex"/>
+                                    <segue destination="fDi-e6-PIQ" kind="show" id="Q2d-39-Ymy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="BMI" id="cCP-KX-bR0" userLabel="BMI"/>
+                    <navigationItem key="navigationItem" title="Body Mass Index" id="dVV-UN-MGj"/>
+                    <connections>
+                        <outlet property="ageField" destination="Hyl-w9-CE2" id="L7M-Lf-XOf"/>
+                        <outlet property="heightField" destination="fyB-RL-RRg" id="hv3-IC-qKg"/>
+                        <outlet property="hipField" destination="Gcb-ms-vIH" id="vP8-UG-J0H"/>
+                        <outlet property="waistField" destination="JXh-bf-J77" id="uLu-bg-hCS"/>
+                        <outlet property="weightField" destination="hL0-c9-rTb" id="udV-Ue-CIN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EzO-wz-Hgy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="770" y="62"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9xE-iG-bms">
+            <objects>
+                <viewController id="fDi-e6-PIQ" customClass="ViewController" customModule="MyHealth" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1pU-Wm-QYA"/>
+                        <viewControllerLayoutGuide type="bottom" id="MYC-2Z-CPg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ind-Mv-9Pb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Weight" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ohp-Ug-AJz">
+                                <rect key="frame" x="75" y="139" width="100" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="testField" destination="Ohp-Ug-AJz" id="JiZ-PG-xZY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZQL-pf-mr6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1504" y="62"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="avX-Cd-R9F">
+            <objects>
+                <tabBarController id="zUe-x1-ALV" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="unS-zH-tEf"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="eJF-LY-zne">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="SNb-1a-PZJ" kind="relationship" relationship="viewControllers" id="YhJ-oq-Vnx"/>
+                        <segue destination="bOD-Po-dDB" kind="relationship" relationship="viewControllers" id="HHe-he-6GE"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="okZ-uK-tX0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-50" y="393"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Lvb-KI-rPa"/>
+    </inferredMetricsTieBreakers>
+</document>
