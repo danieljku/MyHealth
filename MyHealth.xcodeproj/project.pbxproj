@@ -13,6 +13,8 @@
 		126C8E6B1D2D81F3006582D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126C8E691D2D81F3006582D0 /* Main.storyboard */; };
 		126C8E6D1D2D81F3006582D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 126C8E6C1D2D81F3006582D0 /* Assets.xcassets */; };
 		126C8E701D2D81F3006582D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126C8E6E1D2D81F3006582D0 /* LaunchScreen.storyboard */; };
+		12A7233E1D2DCFE700BA6A72 /* BMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A7233D1D2DCFE700BA6A72 /* BMIViewController.swift */; };
+		12A723401D2DD08600BA6A72 /* BMIInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A7233F1D2DD08600BA6A72 /* BMIInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		126C8E6C1D2D81F3006582D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		126C8E6F1D2D81F3006582D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		126C8E711D2D81F3006582D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12A7233D1D2DCFE700BA6A72 /* BMIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMIViewController.swift; sourceTree = "<group>"; };
+		12A7233F1D2DD08600BA6A72 /* BMIInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMIInfo.swift; sourceTree = "<group>"; };
 		1BAE2C0ADABCF5F15DAFF8AE /* Pods-MyHealth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyHealth.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyHealth/Pods-MyHealth.release.xcconfig"; sourceTree = "<group>"; };
 		C1708F33D24C30925A451C73 /* Pods-MyHealth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyHealth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyHealth/Pods-MyHealth.debug.xcconfig"; sourceTree = "<group>"; };
 		EDDDACBF127EEA9318E0AF48 /* Pods_MyHealth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyHealth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,13 +66,31 @@
 			isa = PBXGroup;
 			children = (
 				126C8E651D2D81F3006582D0 /* AppDelegate.swift */,
-				126C8E671D2D81F3006582D0 /* ViewController.swift */,
+				12A872F31D2EBC1A00AAE0C7 /* Models */,
+				12A872F41D2EBC2F00AAE0C7 /* Controllers */,
 				126C8E691D2D81F3006582D0 /* Main.storyboard */,
 				126C8E6C1D2D81F3006582D0 /* Assets.xcassets */,
 				126C8E6E1D2D81F3006582D0 /* LaunchScreen.storyboard */,
 				126C8E711D2D81F3006582D0 /* Info.plist */,
 			);
 			path = MyHealth;
+			sourceTree = "<group>";
+		};
+		12A872F31D2EBC1A00AAE0C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				12A7233F1D2DD08600BA6A72 /* BMIInfo.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		12A872F41D2EBC2F00AAE0C7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				126C8E671D2D81F3006582D0 /* ViewController.swift */,
+				12A7233D1D2DCFE700BA6A72 /* BMIViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		144332AD3D032A5CCCC3848B /* Frameworks */ = {
@@ -210,7 +232,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12A723401D2DD08600BA6A72 /* BMIInfo.swift in Sources */,
 				126C8E681D2D81F3006582D0 /* ViewController.swift in Sources */,
+				12A7233E1D2DCFE700BA6A72 /* BMIViewController.swift in Sources */,
 				126C8E661D2D81F3006582D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
