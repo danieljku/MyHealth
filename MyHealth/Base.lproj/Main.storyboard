@@ -167,7 +167,7 @@
                                         <color key="textColor" red="0.17490754965389332" green="0.54029173129742014" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Status text" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ASU-Ig-eOc">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Status text" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ASU-Ig-eOc">
                                         <rect key="frame" x="140" y="0.0" width="160" height="50"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -216,7 +216,7 @@
                                         <color key="textColor" red="0.17490754965389332" green="0.54029173129742014" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Risk status text" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="umu-0B-KOn">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Risk status text" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="umu-0B-KOn">
                                         <rect key="frame" x="140" y="0.0" width="160" height="100"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
